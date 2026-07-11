@@ -239,7 +239,7 @@ export default function Solar({ isActive = true }: SolarProps): React.JSX.Elemen
 							centerPosition={SUN_POINT}
 						/>
 						<AsteroidBeltLOD
-							orbitRadius={22.0}
+							orbitRadius={25.0}
 							count={1500}
 							height={1.0}
 							size={0.15}

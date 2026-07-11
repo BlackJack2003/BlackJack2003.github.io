@@ -249,4 +249,43 @@ export const solarElements: OrbitingElementConfig[] = [
 			],
 		},
 	},
+	{
+		orbit: {
+			orbitRadius: 23.2,
+			rotationSpeed: 0.02,
+			orbitSegments: 128,
+			eccentricity: 0.03,
+			orbitOffsetPlaneRotationOffset: -1.5,
+		},
+		planet: {
+			size: 0.92,
+			color: "#78b7b1",
+			textureMap: "/projects/paint-canvas.jpg",
+			atmosphereColor: "#9ed9d3",
+			atmosphereIntensity: 1.18,
+			selfRotationSpeed: 0.21,
+			project: {
+				id: "virtual-poct-qc",
+				name: "Virtual POCT - AI Quality Control Assistant",
+				description:
+					"Full-stack AI-powered quality control platform for point-of-care testing with real-time conversational troubleshooting, deterministic QC evaluation, and auditable compliance workflows.",
+				techStack: [
+					"FastAPI",
+					"React",
+					"TypeScript",
+					"PostgreSQL",
+					"SQLAlchemy",
+					"Docker",
+					"Nginx",
+					"WebSockets",
+					"LangChain",
+					"Langfuse",
+					"Google Gemini",
+					"JWT",
+				],
+				tags: ["Healthcare AI", "Quality Control", "Real-time"],
+				links: [],
+			},
+		},
+	},
 ];
