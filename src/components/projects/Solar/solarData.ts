@@ -73,7 +73,6 @@ export const solarElements: OrbitingElementConfig[] = [
 						eccentricity: 0.3,
 						orbitOffsetPlaneRotationOffset: 0,
 						renderOrbit: true,
-						
 					},
 					moonSelfRotationSpeed: 0.1,
 					planet: {
@@ -184,7 +183,7 @@ export const solarElements: OrbitingElementConfig[] = [
 				name: "Resume Builder",
 				description:
 					"Built an AI-powered resume optimization tool that parses LaTeX resumes, tailors content to job descriptions, and generates polished, job-specific resume output.",
-				tags: ["OpenAI API", "Python","LaTeX"],
+				tags: ["OpenAI API", "Python", "LaTeX"],
 				links: [],
 			},
 		},
@@ -284,6 +283,41 @@ export const solarElements: OrbitingElementConfig[] = [
 					"JWT",
 				],
 				tags: ["Healthcare AI", "Quality Control", "Real-time"],
+				links: [],
+			},
+		},
+	},
+	{
+		orbit: {
+			orbitRadius: 26.0,
+			rotationSpeed: 0.018,
+			orbitSegments: 112,
+			eccentricity: 0.05,
+			orbitOffsetPlaneRotationOffset: 2.5,
+		},
+		planet: {
+			size: 0.58,
+			color: "#8b9bb5",
+			textureMap: "/projects/gray-bubble.jpg",
+			atmosphereColor: "#b8c8df",
+			atmosphereIntensity: 1.05,
+			selfRotationSpeed: 0.18,
+			project: {
+				id: "etf-volatility",
+				name: "ETF Volatility Forecasting with Regularized Regression",
+				description:
+					"Forecasted next-day volatility for SPY, QQQ, GLD, IWM, and TLT using 2010--2025 daily market data and engineered rolling volatility, EMA, return, volume, and statistical features. Compared OLS, Ridge, LASSO, and regression tree models using chronological train/test evaluation. Applied LASSO feature selection and extended the model with cross-asset volatility signals, achieving the strongest overall out-of-sample performance among the evaluated models.",
+				techStack: [
+					"R",
+					"tidyquant",
+					"glmnet",
+					"rpart",
+					"dplyr",
+					"ggplot2",
+					"Statistical Modeling",
+					"Feature Engineering",
+				],
+				tags: ["Statistical Modeling", "Forecasting", "Finance"],
 				links: [],
 			},
 		},
